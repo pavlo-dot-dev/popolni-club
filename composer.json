@@ -1,0 +1,21 @@
+{
+  "name": "pavlo-dot-dev/popolni-club",
+  "description": "Popolni.club API",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PavloDotDev\\PopolniClub\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "PAVLO POPOV",
+      "email": "info@pavlo.dev"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "^7.7"
+  }
+}
